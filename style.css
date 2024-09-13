@@ -48,6 +48,11 @@ main{
 }
 .conteudo h1 {
     font-size: 96px;
+    color: black;
+}
+.conteudo h2{
+    font-size: 70px;
+    color: black;
 }
 .conteudo p{
     font-size: 40px;
@@ -73,7 +78,7 @@ main{
  }
 .destaque{
     width: 50%;
-    background-color: gray
+    background-color: tomato
 }
 footer{
     height: 100px;
