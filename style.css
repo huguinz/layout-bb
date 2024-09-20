@@ -76,14 +76,15 @@ main{
     border-radius: 50%;
     background-color: antiquewhite;
  }
-.destaque{
-    width: 50%;
-    background-color: tomato
+img{
+    height: 1300px;    
+    width: 1200px;
+    display: flex;
 }
 footer{
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: lightgray
+    color: black
 }
