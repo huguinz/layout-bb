@@ -27,9 +27,12 @@ header{
     align-items: center;
 }
 .logo{
-    height: 80px;
-    width: 80px;
-    background-color: cornflowerblue;
+    height: 73px;
+    width: 60px;
+    background-image: url(./apple-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .menu ul{
     display: flex;
@@ -41,7 +44,7 @@ main{
     display: flex;
 }
 .conteudo{
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -49,18 +52,20 @@ main{
 .conteudo h1 {
     font-size: 96px;
     color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .conteudo h2{
     font-size: 70px;
     color: black;
+    font-style:oblique;
 }
 .conteudo p{
-    font-size: 40px;
-    width: 80%;
+    font-size: 45px;
+    width: 70%;
 }
 .conteudo button{
-    height: 80px;
-    width: 300px;
+    height:90px;
+    width: 190px;
     background-color: black;
     color: white;
     font-size: 32px;
@@ -77,8 +82,8 @@ main{
     background-color: antiquewhite;
  }
 img{
-    height: 1300px;    
-    width: 1200px;
+    height: 1100px;    
+    width: 1000px;
     display: flex;
 }
 footer{
